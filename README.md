@@ -9,3 +9,25 @@ Linear Regression is one of the simplest and most widely used supervised machine
 - m: Slope (coefficient of x)
 - c: Intercept.
 
+## Objective:
+Find the best values for m (slope) and c (intercept) such that the line fits the data points as closely as possible.
+
+## Cost Function:
+
+The cost function (e.g., Mean Squared Error) measures how far the predicted values are from the actual values. The goal is to minimize this cost function.
+
+## Gradient Descent:
+
+An optimization algorithm used to adjust the values of m and c to minimize the cost function.
+
+### Types of Linear Regression
+#### Simple Linear Regression:
+Only one independent variable is used to predict the target.
+- y=mx+c.
+
+#### Multiple Linear Regression:
+
+Multiple independent variables are used to predict the target.
+- y=m1x1+m2x2+...+mnxn+c
+
+ 
